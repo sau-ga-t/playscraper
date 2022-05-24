@@ -1,0 +1,18 @@
+{
+  "name": "playscraper",
+  "version": "1.0.0",
+  "description": "Project to scrape google play store apps listing.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Saugat Poudel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "express": "^4.18.1"
+  }
+}
